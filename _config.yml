@@ -17,7 +17,7 @@ title: Secured.org
 email: amanda@secured.org
 description: > # this means to ignore newlines until "baseurl:"
   @malwareunicorn's repo
-baseurl: "https://securedorg.github.io/RE101" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
