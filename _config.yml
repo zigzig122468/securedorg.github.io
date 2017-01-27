@@ -25,5 +25,4 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
 theme: jekyll-theme-tactile
