@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /Tools/
+permalink: /RE101/Tools/
 title: RE Tools
 ---
 # Required Tools #
