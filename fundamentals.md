@@ -1,3 +1,9 @@
+---
+layout: default
+permalink: /section1/
+title: Fundamentals
+---
+
 # Section 1: Fundamentals #
 
 ## Enviroment Setup ##
