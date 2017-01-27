@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /section1/
+permalink: /RE101/section1/
 title: Fundamentals
 ---
 
