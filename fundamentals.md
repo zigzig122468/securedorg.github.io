@@ -19,6 +19,8 @@ title: Fundamentals
 
 ## Anatomy of a C program ##
 
+![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/Cprogram.gif "C Program")
+
 ## x86 Assembly ##
 
 ### Registers ###
