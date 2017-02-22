@@ -16,3 +16,12 @@ title: Fundamentals
 #### Mac OSX ####
 
 #### Linux ####
+
+## Anatomy of a C program ##
+
+## x86 Assembly ##
+
+### Registers ###
+
+### Opcodes ###
+
