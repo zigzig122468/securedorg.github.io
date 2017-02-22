@@ -15,16 +15,16 @@ title: Intro
 
 ## You are ##
 
-⋅⋅* A fast learner
+* A fast learner
 
-⋅⋅* Able to derive meaning from nonsense
+* Able to derive meaning from nonsense
 
-⋅⋅* A good puzzle solver
+* A good puzzle solver
 
-⋅⋅* Able to think outside of the box
+* Able to think outside of the box
 
-⋅⋅* Willing to frequently use the scientific method
+* Willing to frequently use the scientific method
 
-⋅⋅* Resourceful
+* Resourceful
 
 
