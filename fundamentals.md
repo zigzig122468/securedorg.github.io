@@ -15,15 +15,15 @@ For windows and osx, follow the instructions in the install binary.
 
 #### Windows ####
 
-![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/VBwin.png "Windows Virualbox")
+![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")
 
 #### Mac OSX ####
 
-![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/VBmac.png "OSX Virtualbox")
+![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")
 
 #### Linux ####
 
-![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/Vblinux.png "Linux Virtualbox")
+![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")
 
 ---
 
