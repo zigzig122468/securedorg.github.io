@@ -27,6 +27,8 @@ title: Intro
 
 * Constantly learn new things
 
+![alt text](https://securedorg.github.io/images/bikeloop.gif "Bike")
+
 ## Game Plan ##
 
 * Determine what are the goals
