@@ -40,7 +40,7 @@ title: Intro
 
 ## Analysis Flow for Malware Analysis ##
 
-* Setup a baseline** analysis environment
+* Setup a baseline analysis environment
 
 * Triage to determine a starting point
 
