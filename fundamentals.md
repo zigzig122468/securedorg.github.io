@@ -62,9 +62,9 @@ Unzip the files below and open the .ovf file with VirtualBox
   *  Name should mirror both VMs. Default is `intnet`
 5. Run/Play both VMs to verify network connectivity
   * Sniffer VM: Ensure `inetsim` is running
-    *  Open terminal and run: `ps -ef | grep inetsim`
+    * Open terminal and run: `ps -ef | grep inetsim`
     * If no output, run: `/etc/init.d/inetsim start`
-    * Run the ps command again to confirm it's running. See output below
+    * Run the ps command again to confirm it's running. See output below.
   * Victim VM: test connection to Sniffer VM
     * In the search bar, type `cmd.exe` to open terminal
     * Run command: `ping 192.168.0.1`
