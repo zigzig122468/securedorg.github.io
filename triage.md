@@ -14,4 +14,4 @@ title: Triage Analysis
 * Run it in a VM
 * Capture network information
 
-[Section 3 <- Back](https://securedorg.github.io/RE101/section3) | [Next -> Section 4](https://securedorg.github.io/RE101/section4)
+[Section 3 <- Back](https://securedorg.github.io/RE101/section3) | [Next -> Section 5](https://securedorg.github.io/RE101/section5)
