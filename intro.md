@@ -7,6 +7,8 @@ title: Intro
 
 # Introduction #
 
+![alt text](https://securedorg.github.io/images/cube.gif "Cube")
+
 # Reverse Engineering #
 
 "is the processes of extracting knowledge or design information from anything man-made and re-producing it or re-producing anything based on the extracted information"
