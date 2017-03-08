@@ -15,15 +15,15 @@ For windows and osx, follow the instructions in the install binary.
 
 #### Windows ####
 
-![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")
+[![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe)
 
 #### Mac OSX ####
 
-![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")
+[![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg)
 
 #### Linux ####
 
-![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")
+[![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 ---
 
@@ -66,14 +66,15 @@ Unzip the files below and open the .ovf file with VirtualBox
 6. Sniffer VM: Ensure `inetsim` is running
   * Open terminal and run: `ps -ef | grep inetsim`
   * If no output, run: `/etc/init.d/inetsim start`
-  * Run the ps command again to confirm it's running. See output below.
+  * Run the ps command again to confirm it's running.
+  * Expected output: ![alt text](https://securedorg.github.io/images/VerifyInetsim.png "ps output")
 7. Victim VM: test connection to Sniffer VM
   * In the search bar, type `cmd.exe` to open terminal
   * Run command: `ping 192.168.0.1`
-  * Expected output:
+  * Expected output: ![alt text](https://securedorg.github.io/images/PingGateway.png "Ping Output")
 6. Sniffer VM: Devices->Shared Folders->Shared Folders Settings
   * On your Host, create a folder called `sniffershare`
   * In virtual box select Add New Shared Folder icon and navigate to the folder you just created (sniffershare)
   * In Sniffer VM, open the terminal and run command:`sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) share ~/host`
 
-[Intro <- Back](https://securedorg.github.io/RE101/intro)[Next -> Anatomy of PE](https://securedorg.github.io/RE101/section1.2)
+[Intro <- Back](https://securedorg.github.io/RE101/intro) | [Next -> Anatomy of PE](https://securedorg.github.io/RE101/section1.2)
