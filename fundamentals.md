@@ -13,10 +13,9 @@ title: Fundamentals
 
 For windows and osx, follow the instructions in the install binary.
 
-#### Windows #### | #### Mac OSX #### | #### Linux ####
---- | --- | ---
-[![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe) | [![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg) | [![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")](https://www.virtualbox.org/wiki/Linux_Downloads)
-
+| Windows | Mac OSX | Linux |
+| --- | --- | --- |
+| [![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe) | [![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg) | [![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")](https://www.virtualbox.org/wiki/Linux_Downloads) |
 
 #### Mac OSX ####
 
