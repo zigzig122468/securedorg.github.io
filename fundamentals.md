@@ -62,13 +62,13 @@ Unzip the files below and open the .ovf file with VirtualBox
   *  Name should mirror both VMs. Default is `intnet`
 5. Run/Play both VMs to verify network connectivity
   * Sniffer VM: Ensure `inetsim` is running
-    * Open terminal and run: `ps -ef | grep inetsim`
-    * If no output, run: `/etc/init.d/inetsim start`
-    * Run the ps command again to confirm it's running. See output below.
+    - Open terminal and run: `ps -ef | grep inetsim`
+    - If no output, run: `/etc/init.d/inetsim start`
+    - Run the ps command again to confirm it's running. See output below.
   * Victim VM: test connection to Sniffer VM
-    * In the search bar, type `cmd.exe` to open terminal
-    * Run command: `ping 192.168.0.1`
-    * Expected output:
+    - In the search bar, type `cmd.exe` to open terminal
+    - Run command: `ping 192.168.0.1`
+    - Expected output:
 6. Sniffer VM: Devices->Shared Folders->Shared Folders Settings
   * On your Host, create a folder called `sniffershare`
   * In virtual box select Add New Shared Folder icon and navigate to the folder you just created (sniffershare)
