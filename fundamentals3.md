@@ -21,4 +21,4 @@ title: Fundamentals
 
 ### The Stack ###
 
-[Intro <- Anatomy of PE](https://securedorg.github.io/RE101/section1.2) | [Next -> Malware Techniques](https://securedorg.github.io/RE101/section2)
+[Anatomy of PE <- Back](https://securedorg.github.io/RE101/section1.2) | [Next -> Section 2](https://securedorg.github.io/RE101/section2)
