@@ -17,8 +17,6 @@ For windows and osx, follow the instructions in the install binary.
 | --- | --- | --- |
 | [![alt text](https://securedorg.github.io/images/VBwin.png "Windows Virualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe) | [![alt text](https://securedorg.github.io/images/VBmac.png "OSX Virtualbox")](http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg) | [![alt text](https://securedorg.github.io/images/Vblinux.png "Linux Virtualbox")](https://www.virtualbox.org/wiki/Linux_Downloads) |
 
----
-
 ### Download Victim and Sniffer VMs ###
 
 Unzip the files below and open the .ovf file with VirtualBox
@@ -47,12 +45,12 @@ Unzip the files below and open the .ovf file with VirtualBox
 
 1. Install VirtualBox CD on both VMs: Devices->Insert Guest Additions CD Image
   * If it doesn't auto appear, navigate to the CD Drive to install
-  * Follow install directions
+  * Follow install directions from the Guest Additions Dialog
   * Note: it will require install privileges so insert passwords for each VM
 2. Victim VM: Devices->Drag and Drop->Bidrectional 
 3. Victim VM: Devices->Shared Clipboard->Bidirectional
 4. Both VMs: Devices->Network->Network Settings
-  *  Select Attached to `Interal Network`
+  *  Select Attached to `Internal Network`
   *  Name should mirror both VMs. Default is `intnet`
 5. Run/Play both VMs to verify network connectivity
 6. Sniffer VM: Ensure `inetsim` is running
