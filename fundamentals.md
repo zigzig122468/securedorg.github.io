@@ -49,6 +49,8 @@ Unzip the files below and open the .ovf file with VirtualBox
 * IP Address: 192.168.0.1
 * Gateway: 192.168.0.1
 
+---
+
 ### Post Install Instructions ###
 
 1. Install VirtualBox CD on both VMs: Devices->Insert Guest Additions CD Image
@@ -61,14 +63,14 @@ Unzip the files below and open the .ovf file with VirtualBox
   *  Select Attached to `Interal Network`
   *  Name should mirror both VMs. Default is `intnet`
 5. Run/Play both VMs to verify network connectivity
-  * Sniffer VM: Ensure `inetsim` is running
-    - Open terminal and run: `ps -ef | grep inetsim`
-    - If no output, run: `/etc/init.d/inetsim start`
-    - Run the ps command again to confirm it's running. See output below.
-  * Victim VM: test connection to Sniffer VM
-    - In the search bar, type `cmd.exe` to open terminal
-    - Run command: `ping 192.168.0.1`
-    - Expected output:
+6. Sniffer VM: Ensure `inetsim` is running
+  * Open terminal and run: `ps -ef | grep inetsim`
+  * If no output, run: `/etc/init.d/inetsim start`
+  * Run the ps command again to confirm it's running. See output below.
+7. Victim VM: test connection to Sniffer VM
+  * In the search bar, type `cmd.exe` to open terminal
+  * Run command: `ping 192.168.0.1`
+  * Expected output:
 6. Sniffer VM: Devices->Shared Folders->Shared Folders Settings
   * On your Host, create a folder called `sniffershare`
   * In virtual box select Add New Shared Folder icon and navigate to the folder you just created (sniffershare)
