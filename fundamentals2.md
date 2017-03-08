@@ -7,13 +7,16 @@ title: Fundamentals
 
 # Section 1.2: Fundamentals #
 
-## Anatomy of a C program ##
+## Anatomy of a Windows PE C program ##
+
+Typical windows programs are in the Portable Executable (PE) Format. It’s portable because it contains information, resources, and references to dynamic-linked libraries (DLL) that allows windows to load and execute the machine code. 
 
 ![alt text](https://securedorg.github.io/images/Cprogram.gif "C Program")
 
-## x86 Assembly ##
+## PE Header ##
 
-### Registers ###
+## Memory Layout ##
 
-### Opcodes ###
+## The Stack ##
 
+[Environment Setup <- Back](https://securedorg.github.io/RE101/section1) | [Next -> x86 Assembly](https://securedorg.github.io/RE101/section1.3)
