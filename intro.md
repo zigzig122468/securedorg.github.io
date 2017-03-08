@@ -13,19 +13,17 @@ title: Intro
 
 ## What does it mean to be a reverse engineer? ##
 
-## You are ##
+## You can ##
 
-* A fast learner
+* Take things apart to figure out how it works
 
-* Able to derive meaning from nonsense
+* Love puzzle solving
 
-* A good puzzle solver
+* Develop experiments and tools
 
-* Able to think outside of the box
+* Think outside the box
 
-* Willing to frequently use the scientific method
-
-* Resourceful
+* Constantly learn new things
 
 [Next -> Section 1](https://securedorg.github.io/RE101/section1)
 
