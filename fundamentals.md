@@ -19,11 +19,11 @@ For windows and osx, follow the instructions in the install binary.
 
 #### Mac OSX ####
 
-![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/VBlinux.png "Linux Virtualbox")
+![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/VBmac.png "OSX Virtualbox")
 
 #### Linux ####
 
-![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/VBmac.png "OSX Virtualbox")
+![alt text](https://github.com/securedorg/securedorg.github.io/blob/master/images/Vblinux.png "Linux Virtualbox")
 
 ### Download Victim and Sniffer VMs ###
 
