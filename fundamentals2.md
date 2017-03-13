@@ -21,6 +21,8 @@ Typical windows programs are in the Portable Executable (PE) Format. It’s port
 
 ![alt text](https://securedorg.github.io/images/PE32.png "PE 32 Header")
 
+![alt text](https://securedorg.github.io/images/PEHeader.gif "PE 32 Header Animated")
+
 ## Memory Layout ##
 
 ## The Stack ##
