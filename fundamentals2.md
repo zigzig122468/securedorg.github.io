@@ -69,4 +69,10 @@ This diagram illustrates how the PE is placed into memory.
 
 ## The Stack ##
 
+- Data is either pushed onto or pop off of the stack data structure
+- **EBP** - Base Pointer is the register that used to store the references in the stack frame
+
+This diagram represents a typical stack frame.
+![alt text](https://securedorg.github.io/images/TheStackFrame.png "Stack Frame")
+
 [Environment Setup <- Back](https://securedorg.github.io/RE101/section1) | [Next -> x86 Assembly](https://securedorg.github.io/RE101/section1.3)
