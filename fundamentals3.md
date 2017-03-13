@@ -9,6 +9,8 @@ title: Fundamentals
 
 ## x86 Assembly ##
 
+The C programming is a high level language interpreted by the compiler that converts code into machine instructions called assembly language. By using a disassembler tool we can get the assembly language of a compiled C program.
+
 ### Opcodes and Instructions ###
 
 ### Registers ###
