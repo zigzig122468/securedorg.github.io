@@ -19,7 +19,7 @@ Typical windows programs are in the Portable Executable (PE) Format. It’s port
 
 In this workshop we will be focusing on user-mode applications.
 
-### User-mode vs. Kernel Mode [1][1] ###
+### User-mode vs. Kernel Mode [[1]][1] ###
 
 - In user-mode, an application starts a user-mode process which comes with its own private virtual address space and handle table
 
@@ -50,7 +50,7 @@ Here is a hexcode dump of a PE header we will be working with.
 
 ## Memory Layout ##
 
-- **Stack** - region of memory is added or removed using “last-in-firs-out” [[2]][2]
+- **Stack** - region of memory is added or removed using “last-in-first-out” (LIFO) procedure [[2]][2]
 - **Heap** - region for dynamic memory allocation [[3]][3]
 - **Program Image** - The PE executable code placed into memory
 - **DLLs** - Loaded DLL images that are referenced by the PE
