@@ -13,7 +13,13 @@ Typical windows programs are in the Portable Executable (PE) Format. It’s port
 
 ![alt text](https://securedorg.github.io/images/Cprogram.gif "C Program")
 
+## Windows Architecture ##
+
+![alt text](https://securedorg.github.io/images/WindowsArch.png "Windows Architecture")
+
 ## PE Header ##
+
+![alt text](https://securedorg.github.io/images/PE32.png "PE 32 Header")
 
 ## Memory Layout ##
 
