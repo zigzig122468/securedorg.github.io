@@ -19,13 +19,13 @@ Typical windows programs are in the Portable Executable (PE) Format. It’s port
 
 In this workshop we will be focusing on user-mode applications.
 
-### User-mode vs. Kernel Mode [1] ###
+### User-mode vs. Kernel Mode [1][1] ###
 
 - In user-mode, an application starts a user-mode process which comes with its own private virtual address space and handle table
 
 - In kernel mode, applications share virtual address space.
 
-[1](https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode?f=255&MSPPError=-2147217396)
+[1]: https://msdn.microsoft.com/en-us/windows/hardware/drivers/gettingstarted/user-mode-and-kernel-mode?f=255&MSPPError=-2147217396
 
 This diagram shows the relationship of application components for user-mode and kernel-mode.
 ![alt text](https://securedorg.github.io/images/WindowsArch.png "Windows Architecture")
