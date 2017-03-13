@@ -50,6 +50,18 @@ Here is a hexcode dump of a PE header we will be working with.
 
 ## Memory Layout ##
 
+- **Stack** - region of memory is added or removed using “last-in-firs-out” [[2]][2]
+- **Heap** - region for dynamic memory allocation [[3]][3]
+- **Program Image** - The PE executable code placed into memory
+- **DLLs** - Loaded DLL images that are referenced by the PE
+- **TEB** - Thread Environment Block stores information about the current running thread(s) [[4]][4]
+- **PEB** - Process Environment Block stores information about loaded modules and processes. [[5]][5]
+
+[2]: https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+[3]: https://en.wikipedia.org/wiki/Heap_(data_structure)
+[4]: https://en.wikipedia.org/wiki/Win32_Thread_Information_Block
+[5]: https://en.wikipedia.org/wiki/Process_Environment_Block
+
 This diagram illustrates how the PE is placed into memory.
 ![alt text](https://securedorg.github.io/images/Memory.png "PE Memory Layout")
 
