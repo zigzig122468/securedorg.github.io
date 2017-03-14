@@ -41,7 +41,8 @@ Common Instructions
 * **jmp, jne, jnz, jnb** (Control Flow) 
 * **push, pop, call, leave, enter, ret** (Control Flow)
 
-Example:
+Example
+
 | Instruction | Opcode | Description |
 | --- | --- | --- |
 | `mov ecx,[0xaaaaaaaa];` | `8B 0D AA AA AA AA` | move 0xaaaaaaaa into ecx | 
