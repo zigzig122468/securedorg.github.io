@@ -21,6 +21,8 @@ The x86 architecture is **little-endian**, meaning that multi-byte values are wr
 #### Stored as Little Endian
 | A3 | A2 | A1 | A0 |
 
+---
+
 ## Opcodes and Instructions ###
 
 Each Instruction represents opcodes (hex code) that tell the machine what to do next.
@@ -38,6 +40,11 @@ Common Instructions
 * **ror, rol** (Logic)
 * **jmp, jne, jnz, jnb** (Control Flow) 
 * **push, pop, call, leave, enter, ret** (Control Flow)
+
+Example:
+| Instruction | Opcode | Description |
+| --- | --- | --- |
+| `mov ecx,[0xaaaaaaaa];` | `8B 0D AA AA AA AA` | move 0xaaaaaaaa into ecx | 
 
 Use the search page below or open the [Search Instructions](https://securedorg.github.io/x86.html) page to search for functions discussed above
 
