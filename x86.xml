@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!--- Source: https://github.com/Maratyszcza/Opcodes --->
 <InstructionSet name="x86">
   <Instruction name="AAA" summary="ASCII Adjust After Addition">
     <InstructionForm gas-name="aaa" go-name="AAA">
