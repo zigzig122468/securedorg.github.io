@@ -41,11 +41,11 @@ Common Instructions
 * **jmp, jne, jnz, jnb** (Control Flow) 
 * **push, pop, call, leave, enter, ret** (Control Flow)
 
-Example
+Example below is moving value 0xaaaaaaaa into ecx.
 
-| Instruction | Opcode | Description |
-| --- | --- | --- |
-| `mov ecx,[0xaaaaaaaa];` | `8B 0D AA AA AA AA` | move 0xaaaaaaaa into ecx | 
+| Instruction | Opcode |
+| --- | --- |
+| `mov ecx,[0xaaaaaaaa];` | `8B 0D AA AA AA AA` |
 
 Use the search page below or open the [Search Instructions](https://securedorg.github.io/x86.html) page to search for functions discussed above
 
