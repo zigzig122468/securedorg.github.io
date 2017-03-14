@@ -21,23 +21,23 @@ The x86 architecture is **little-endian**, meaning that multi-byte values are wr
 #### Stored as Little Endian
 | A3 | A2 | A1 | A0 |
 
-### Opcodes and Instructions ###
+## Opcodes and Instructions ###
 
 Each Instruction represents opcodes (hex code) that tell the machine what to do next.
 
 Three categories of instructions:
-* data movement
-* arithmetic/logic
-* control-flow.
+* Data Movement
+* Arithmetic / Logic
+* Control-Flow
 
 Common Instructions
-* mov, lea (data movement)
-* add, sub (arithmetic)
-* or, and, xor (Logic)
-* shr, shl (Logic)
-* ror, rol (Logic)
-* jmp, jne, jnz, jnb (Control Flow) 
-* push, pop, call, leave, enter, ret (Control Flow)
+* **mov, lea** (data movement)
+* **add, sub** (arithmetic)
+* **or, and, xor** (Logic)
+* **shr, shl** (Logic)
+* **ror, rol** (Logic)
+* **jmp, jne, jnz, jnb** (Control Flow) 
+* **push, pop, call, leave, enter, ret** (Control Flow)
 
 Use the search page below or open the [Search Instructions](https://securedorg.github.io/x86.html) page to search for functions discussed above
 
@@ -45,7 +45,10 @@ Use the search page below or open the [Search Instructions](https://securedorg.g
 
 ---
 
-### Registers ###
+## Registers ###
+
+The image below is what registers will look like in a debugger.
+![alt text](https://securedorg.github.io/images/Registers.png "Registers")
 
 #### General-Purpose Registers [[1]][1]
 
