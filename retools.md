@@ -26,6 +26,7 @@ title: RE Tools
 * **Command Cheatsheet**
   * Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
 * **Common Commands**
+
 | Action | Command |
 | --- | --- |
 | Jump to xref to operand | X |
