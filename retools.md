@@ -20,6 +20,8 @@ title: RE Tools
 
 ### Disassembler: IdaFree
 
+![alt text](https://securedorg.github.io/images/IdaFree.gif "IdaFree Layout")
+
 * **Visual Modes**
   * **Graph Mode** - control flow diagram
   * **Text Mode** - default view of disassembled code
