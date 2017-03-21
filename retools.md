@@ -19,13 +19,16 @@ title: RE Tools
 ### IdaFree
 
 **Visual Modes**
+
 * **Graph Mode** - control flow diagram
 * **Text Mode** - default view of disassembled code
 
 **Command Cheatsheet**
+
 Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
 
 **Common Commands**
+
 | Action | Command |
 | --- | --- |
 | Jump to xref to operand | X |
@@ -44,6 +47,7 @@ Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet
 ![alt text](https://securedorg.github.io/images/x64dbg.gif "x64dbg Layout")
 
 **Common Commands**
+
 | Action | Command |
 | --- | --- |
 | Enter comment	| Shift+; |
