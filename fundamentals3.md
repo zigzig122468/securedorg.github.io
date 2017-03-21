@@ -111,13 +111,17 @@ The **EIP** register contains the address of the next instruction to be executed
 
 ---
 
-## A Function and Calling a Function ##
+## Hello World ##
 
-### Arguments ###
+![alt text](https://securedorg.github.io/images/helloworld.gif "Hello World")
+
+## Calling a Function ##
+
+### Arguments on the Stack ###
 
 ![alt text](https://securedorg.github.io/images/FunctionCall.gif "Function Arguments")
 
-### Local Variables ###
+### Local Variables on the Stack ###
 
 ![alt text](https://securedorg.github.io/images/FunctionCall2.gif "Function Locals")
 
