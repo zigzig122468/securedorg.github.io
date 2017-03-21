@@ -70,4 +70,16 @@ You will want to capture this information throughout your investigation either t
 You can use the **Malware Analysis Report** template [HERE](https://securedorg.github.io/ReportForm.html)
 
 
+## LAB 1
+
+1. Run the Victim VM
+2. Copy over the unknown file
+3. Check the file header by opening the file in the hex editor **HxD**
+  * Notice the first 1 byte is **MZ** meaning it's a PE Binary
+4. Now right click the file and select **CFF explorer** to check the PE header
+  * Note the imports it's using
+5. Calculate the hash using **quickhash**, go to virustotal.com and search the hash
+6. Open the file in **BinText** and record any interesting strings
+
+
 [Section 3 <- Back](https://securedorg.github.io/RE101/section3) | [Next -> Section 5](https://securedorg.github.io/RE101/section5)
