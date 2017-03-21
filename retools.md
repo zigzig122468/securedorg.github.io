@@ -81,6 +81,15 @@ title: RE Tools
 * [Wireshark](https://www.wireshark.org/download.html) - network sniffing (Used in this worksop)
 * [API Monitor](http://www.rohitab.com/downloads)
 
+### Helpful Websites
+
+* [virustotal.com](https://www.virustotal.com/) - free service that analyzes suspicious files and URLs 
+* [malwr.com](https://malwr.com/) - Malwr is a free malware analysis service
+* [hyrbid-analysis](https://www.hybrid-analysis.com/) - free malware analysis service
+* [whois.domaintools.com](http://whois.domaintools.com/) - look up domains
+* [robtex.com](https://www.robtex.com/) - free DNS lookup tool 
+* [www.debuggex.com](https://www.debuggex.com/) - Online Visual Regex Tester
+
 ---
 
 ## Information Gathering: CFF Explorer
