@@ -8,18 +8,29 @@ title: RE Tools
 # Section 3: Reverse Engineering (RE) Tools #
 
 
-## Disassembler
+## Disassemblers
 
 * [Ida](https://www.hex-rays.com/products/ida/)
   * Free (Used in this worksop)
-  * Pro
+  * Pro (Most Popular)
 * [Radare](https://www.radare.org)
 * [Capstone](http://www.capstone-engine.org/)
 
-## Decompilers
+### IdaFree
 
-* [Snowman](https://derevenets.com/)
-* [dotPeek](https://www.jetbrains.com/decompiler/) .NET decompiler
+**Visual Modes**
+* **Graph Mode** - control flow diagram
+* **Text Mode** - default view of disassembled code
+
+**Command Cheatsheet**
+Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
+
+**Common Commands**
+| Action | Command |
+| --- | --- |
+| Jump to xref to operand | X |
+| Jump to address | G |
+| Enter comment	| Shift+; |
 
 ## Debuggers
 
@@ -28,21 +39,46 @@ title: RE Tools
 * [OllyDbg](http://www.ollydbg.de/)  (Most Popular)
 * [WinDbg](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit)
 
+### x64dbg
+
+![alt text](https://securedorg.github.io/images/x64dbg.gif "x64dbg Layout")
+
+**Common Commands**
+| Action | Command |
+| --- | --- |
+| Enter comment	| Shift+; |
+| BreakPoint	| F2 |
+| Step into	| F7 |
+| Step over	| F8 |
+| Run	| F9 |
+| Edit Instruction | Enter |
+
+### Keyboard Layout for IdaFree and x64dbg
+
+![alt text](https://securedorg.github.io/images/keyboarddbg.gif "Keyboad Layout")
+
+## Decompilers
+
+* [Snowman](https://derevenets.com/) (Integrated with x64dbg)
+* [dotPeek](https://www.jetbrains.com/decompiler/) .NET decompiler
+
+---
+
 ## Information Gathering
 
-* [CFF Explorer](http://www.ntcore.com/exsuite.php)
-* [Sysinternals Suite](https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx)
+* [CFF Explorer](http://www.ntcore.com/exsuite.php) - PE header parser (Used in this worksop)
+* [Sysinternals Suite](https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx) (Used in this worksop)
   * procmon
   * procexplorer
-* [InetSim: Internet Services Simulation Suite](http://www.inetsim.org/downloads.html)
+* [InetSim: Internet Services Simulation Suite](http://www.inetsim.org/downloads.html) (Used in this worksop)
 * [Yara: pattern matching rule engine](https://virustotal.github.io/yara/)
-* [Wireshark](https://www.wireshark.org/download.html) - network sniffing
+* [Wireshark](https://www.wireshark.org/download.html) - network sniffing (Used in this worksop)
 * [API Monitor](http://www.rohitab.com/downloads)
   
 ## Support
 
-* [HxD Hex Editor](https://mh-nexus.de/en/hxd/)
+* [HxD Hex Editor](https://mh-nexus.de/en/hxd/) (Used in this worksop)
 * [Python](https://www.python.org/downloads/) - used for automating tasks
 
 
-[Section 2 <- Back](https://securedorg.github.io/RE101/section2) | [Next -> Section 4](https://securedorg.github.io/RE101/section4)
+[Section 2.1 <- Back](https://securedorg.github.io/RE101/section2.1) | [Next -> Section 4](https://securedorg.github.io/RE101/section4)
