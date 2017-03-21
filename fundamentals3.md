@@ -115,9 +115,12 @@ The **EIP** register contains the address of the next instruction to be executed
 
 ### Arguments ###
 
+![alt text](https://securedorg.github.io/images/FunctionCall.gif "Function Arguments")
+
 ### Local Variables ###
 
-### The Stack ###
+![alt text](https://securedorg.github.io/images/FunctionCall2.gif "Function Locals")
+
 
 [1]: https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture
 
