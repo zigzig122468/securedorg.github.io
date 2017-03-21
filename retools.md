@@ -18,50 +18,12 @@ title: RE Tools
 
 ---
 
-### Disassembler: IdaFree
-
-![alt text](https://securedorg.github.io/images/IdaFree.gif "IdaFree Layout")
-
-* **Visual Modes**
-  * **Graph Mode** - control flow diagram
-  * **Text Mode** - default view of disassembled code
-* **Command Cheatsheet**
-  * Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
-* **Common Commands**
-
-| Action | Command |
-| --- | --- |
-| Jump to xref to operand | X |
-| Jump to address | G |
-| Enter comment	| Shift+; |
-
 ## Debuggers
 
 * [x64dbg](http://x64dbg.com/) (Used in this worksop)
 * [Immunity](https://www.immunityinc.com/products/debugger/)
 * [OllyDbg](http://www.ollydbg.de/)  (Most Popular)
 * [WinDbg](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit)
-
----
-
-### Debugger: x64dbg
-
-![alt text](https://securedorg.github.io/images/x64dbg.gif "x64dbg Layout")
-
-**Common Commands**
-
-| Action | Command |
-| --- | --- |
-| Enter comment	| Shift+; |
-| BreakPoint	| F2 |
-| Step into	| F7 |
-| Step over	| F8 |
-| Run	| F9 |
-| Edit Instruction | Enter |
-
-### Keyboard Layout for IdaFree and x64dbg
-
-![alt text](https://securedorg.github.io/images/keyboarddbg.gif "Keyboad Layout")
 
 ---
 
@@ -94,6 +56,55 @@ title: RE Tools
 * [www.debuggex.com](https://www.debuggex.com/) - Online Visual Regex Tester
 
 ---
+  
+## Support
+
+* [HxD Hex Editor](https://mh-nexus.de/en/hxd/) (Used in this worksop)
+* [Python](https://www.python.org/downloads/) - used for automating tasks
+
+---
+
+## Tools Used in the Workshop
+
+### Disassembler: IdaFree
+
+![alt text](https://securedorg.github.io/images/IdaFree.gif "IdaFree Layout")
+
+* **Visual Modes**
+  * **Graph Mode** - control flow diagram
+  * **Text Mode** - default view of disassembled code
+* **Command Cheatsheet**
+  * Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
+* **Common Commands**
+
+| Action | Command |
+| --- | --- |
+| Jump to xref to operand | X |
+| Jump to address | G |
+| Enter comment	| Shift+; |
+
+---
+
+### Debugger: x64dbg
+
+![alt text](https://securedorg.github.io/images/x64dbg.gif "x64dbg Layout")
+
+**Common Commands**
+
+| Action | Command |
+| --- | --- |
+| Enter comment	| Shift+; |
+| BreakPoint	| F2 |
+| Step into	| F7 |
+| Step over	| F8 |
+| Run	| F9 |
+| Edit Instruction | Enter |
+
+### Keyboard Layout for IdaFree and x64dbg
+
+![alt text](https://securedorg.github.io/images/keyboarddbg.gif "Keyboad Layout")
+
+---
 
 ## Information Gathering: CFF Explorer
 
@@ -109,13 +120,6 @@ title: RE Tools
 * **Procmon** - Monitor processes running on the system
 
 ![alt text](https://securedorg.github.io/images/procmon.png "Procmon")
-
----
-  
-## Support
-
-* [HxD Hex Editor](https://mh-nexus.de/en/hxd/) (Used in this worksop)
-* [Python](https://www.python.org/downloads/) - used for automating tasks
 
 
 [Section 2.1 <- Back](https://securedorg.github.io/RE101/section2.1) | [Next -> Section 4](https://securedorg.github.io/RE101/section4)

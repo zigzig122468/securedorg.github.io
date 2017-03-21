@@ -13,14 +13,14 @@ You will want to quickly narrow down specific information and indicators before 
 
 This checklist should get you started:
 
-- [x] File Context and Delivery
-- [x] File Information & Header Analysis
-- [x] Get Basic PE information
-- [x] Simple Search
-- [x] Collect Strings
-- [x] Check AV vendors
-- [x] Quick VM Detonation
-- [x] Capture network information
+- File Context and Delivery
+- File Information & Header Analysis
+- Get Basic PE information
+- Simple Search
+- Collect Strings
+- Check AV vendors
+- Quick VM Detonation
+- Capture network information
 
 ### File Context and Delivery
 
