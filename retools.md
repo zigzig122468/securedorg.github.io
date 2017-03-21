@@ -75,6 +75,7 @@ title: RE Tools
 ## Information Gathering
 
 * [CFF Explorer](http://www.ntcore.com/exsuite.php) - PE header parser (Used in this worksop)
+* [BinText](https://www.mcafee.com/hk/downloads/free-tools/bintext.aspx) - Extract string from a binary
 * [Sysinternals Suite](https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx) (Used in this worksop)
   * procmon
   * procexplorer
