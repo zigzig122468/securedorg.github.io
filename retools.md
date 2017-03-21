@@ -16,19 +16,16 @@ title: RE Tools
 * [Radare](https://www.radare.org)
 * [Capstone](http://www.capstone-engine.org/)
 
-### IdaFree
+---
 
-**Visual Modes**
+### Disassembler: IdaFree
 
-* **Graph Mode** - control flow diagram
-* **Text Mode** - default view of disassembled code
-
-**Command Cheatsheet**
-
-Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
-
-**Common Commands**
-
+* **Visual Modes**
+  * **Graph Mode** - control flow diagram
+  * **Text Mode** - default view of disassembled code
+* **Command Cheatsheet**
+  * Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet.html)
+* **Common Commands**
 | Action | Command |
 | --- | --- |
 | Jump to xref to operand | X |
@@ -42,7 +39,9 @@ Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet
 * [OllyDbg](http://www.ollydbg.de/)  (Most Popular)
 * [WinDbg](https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit)
 
-### x64dbg
+---
+
+### Debugger: x64dbg
 
 ![alt text](https://securedorg.github.io/images/x64dbg.gif "x64dbg Layout")
 
@@ -61,6 +60,8 @@ Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet
 
 ![alt text](https://securedorg.github.io/images/keyboarddbg.gif "Keyboad Layout")
 
+---
+
 ## Decompilers
 
 * [Snowman](https://derevenets.com/) (Integrated with x64dbg)
@@ -78,6 +79,25 @@ Please refer to this [Ida cheatsheet](https://securedorg.github.io/idacheatsheet
 * [Yara: pattern matching rule engine](https://virustotal.github.io/yara/)
 * [Wireshark](https://www.wireshark.org/download.html) - network sniffing (Used in this worksop)
 * [API Monitor](http://www.rohitab.com/downloads)
+
+---
+
+## Information Gathering: CFF Explorer
+
+* Parses the PE headers
+* Explores Resources
+* Unpacks UPX
+
+![alt text](https://securedorg.github.io/images/CFFexplorer.gif "CFF Explorer")
+
+## Information Gathering: Sysinternals Suite
+
+* advanced system utilities
+* **Procmon** - Monitor processes running on the system
+
+![alt text](https://securedorg.github.io/images/procmon.png "Procmon")
+
+---
   
 ## Support
 
