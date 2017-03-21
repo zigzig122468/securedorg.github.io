@@ -12,6 +12,7 @@ Depending on your workload, you want to spend the least amount of time trying to
 You will want to quickly narrow down specific information and indicators before moving on to deeper static and dynamic analysis.
 
 This checklist should get you started:
+
 - [ ] File Context and Delivery
 - [ ] File Information & Header Analysis
 - [ ] Get Basic PE information
@@ -21,7 +22,7 @@ This checklist should get you started:
 - [ ] Quick VM Detonation
 - [ ] Capture network information
 
-###File Context and Delivery
+### File Context and Delivery
 
 When you receive the malware binary, it's important to ask how the malware got there in the first place.
 
@@ -31,34 +32,34 @@ Questions to ask:
 * Was it quarantined in an Anti-Virus?
 * Is it an anomalous process running?
 
-###File Information & Header Analysis
+### File Information & Header Analysis
 
 * Use a **file** command (sniffer VM) to determine the file type
 * Verify the file header using a hex editor (HxD)
 
-###Get Basic PE information
+### Get Basic PE information
 
 * Parse the PE header using the tool CFF Explorer
 * Determine what resources, DLL imports, and libraries used
   * Example: If you see **Ws2_32.dll** it might be setting up a network connection because it's used for setting up sockets
 
-###Simple Search
+### Simple Search
 
 * Calculate the hash of the file an check the web to see if it's been seen already
 
-###Collect Strings
+### Collect Strings
 
 * using the string command in linux or BinText tool, extract the strings to find any clues
 
-###Check AV vendors
+### Check AV vendors
 
 * Run the file against an Anti-Virus or VirusTotal to see if there are any detections
 
-###Quick VM Detonation
+### Quick VM Detonation
 
 * Use open source VM detonation services like hybrid-analysis.com or malwr.com to get the behavior quickly
 
-###Capture network information
+### Capture network information
 
 * Use the VM detonation service to capture any network connections or packet data.
 * If you can't do this then we will need to dynamically debug the malware.
