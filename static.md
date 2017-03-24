@@ -54,16 +54,39 @@ Notice it's calling [InternetOpen](https://msdn.microsoft.com/en-us/library/wind
 
 This function call has the following arguments:
 
+**C++**
+
 ```c++
 HINTERNET InternetOpen(
-  _In_ LPCTSTR lpszAgent, //URL
-  _In_ DWORD   dwAccessType,
-  _In_ LPCTSTR lpszProxyName,
-  _In_ LPCTSTR lpszProxyBypass,
-  _In_ DWORD   dwFlags
+  _In_ LPCTSTR lpszAgent,      // Arg 1 = URL
+  _In_ DWORD   dwAccessType,   // Arg 2
+  _In_ LPCTSTR lpszProxyName,  // Arg 3
+  _In_ LPCTSTR lpszProxyBypass,// Arg 4
+  _In_ DWORD   dwFlags         // Arg 5
 );
 ```
 
- ![alt text](https://securedorg.github.io/images/static3.png "Strings window")
+We need to figure out what register **esi** is because it contains the URL we are looking for.
+
+**Assembly x86**
+
+```assembly
+push 0    ; Arg 5
+push 0    ; Arg 4
+push 0    ; Arg 3
+push 1    ; Arg 2
+push esi  ; Arg 1 URL
+call ds: InternetOpenA
+```
+
+Right before the first **push 0** there is a **mov esi,eax** which means esi = eax.
+
+When a function returns, the return value is stored in **eax**. So let's look into the function that is being called. It takes a string as the first argument (that is a wicked string), and.
+
+ ![alt text](https://securedorg.github.io/images/static3.png "Unknown Function")
+ 
+ Scroll down until you find **xor al, 5Ah**. Eventually you will be able to recognize when a string loop is being processed. In this case it is **xor** a byte with **5Ah** which is **Z** in [ascii](http://www.asciitable.com/).
+ 
+![alt text](https://securedorg.github.io/images/static4.png "Xor routine")
 
 [Section 4 <- Back](https://securedorg.github.io/RE101/section4) | [Next -> Section 6](https://securedorg.github.io/RE101/section6)
