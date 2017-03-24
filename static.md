@@ -7,6 +7,10 @@ title: Static Analysis
 
 # Section 5: Static Analysis #
 
+Static analysis is like reading a map for directions on where to go. As you follow through this map you capture notes on what things might look interesting when you actually begin your journey.
+
+This section will teach you how to jump into code in static disassembly then rename and comment on interesting assembly routines that we will debug in **Section 6**.
+
 ## LAB 2
 
 ### Possible Packer?
@@ -81,12 +85,24 @@ call ds: InternetOpenA
 
 Right before the first **push 0** there is a **mov esi,eax** which means esi = eax.
 
-When a function returns, the return value is stored in **eax**. So let's look into the function that is being called. It takes a string as the first argument (that is a wicked string), and.
+When a function returns, the return value is stored in **eax**. So let's look into the function that is being called. It takes a string as the first argument (that is a wicked string), while the second argument might be the string length.
 
  ![alt text](https://securedorg.github.io/images/static3.png "Unknown Function")
  
- Scroll down until you find **xor al, 5Ah**. Eventually you will be able to recognize when a string loop is being processed. In this case it is **xor** a byte with **5Ah** which is **Z** in [ascii](http://www.asciitable.com/).
+ Scroll down until you find **xor al, 5Ah**. Eventually you will be able to recognize when a string loop is being processed in assembly. In this case, it is **xor** a byte with **5Ah** which is **Z** in [ascii](http://www.asciitable.com/).
  
 ![alt text](https://securedorg.github.io/images/static4.png "Xor routine")
+
+We can assume that this function is doing some kind of Xor encoding. So let's rename this function as XorDecode. We will need this information later when we debug in Section 6.
+
+![alt text](https://securedorg.github.io/images/static5.png "Rename function")
+
+Let's use the tool **XORSearch** to see if we can find some interesting xor decoded strings. Open the terminal **cmd.exe** from the start bar, and navigate to the XORSearch.exe
+
+`XORSearch.exe <Path to Unknown.exe>` "A string to test"`
+
+![alt text](https://securedorg.github.io/images/static6.png "xor search")
+
+**"Yo this is dope!"** How weird.
 
 [Section 4 <- Back](https://securedorg.github.io/RE101/section4) | [Next -> Section 6](https://securedorg.github.io/RE101/section6)
