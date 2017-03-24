@@ -21,7 +21,7 @@ For windows and osx, follow the instructions in the install binary.
 
 Unzip the files below and open the .ovf file with VirtualBox
 
-[Victim VM](https://securedorg.github.io/RE101/section1)
+[Victim VM](https://drive.google.com/file/d/0B_0DJl2kuzoNZkpveEtiMWJKWDA/view?usp=sharing)
 
 * OS: Windows 7 Service Pack 1
 * Architecture: Intel 32bit
@@ -30,7 +30,7 @@ Unzip the files below and open the .ovf file with VirtualBox
 * IP Address: 192.168.0.2
 * Gateway: 192.168.0.1
 
-[Sniffer VM](https://securedorg.github.io/RE101/section1)
+[Sniffer VM](https://drive.google.com/file/d/0B_0DJl2kuzoNT3IwNElLV3VRdms/view?usp=sharing)
 
 * OS: Ubuntu 16.04.2 LTS Desktop
 * Architecture: Intel 64bit
