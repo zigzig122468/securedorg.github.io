@@ -99,7 +99,7 @@ We can assume that this function is doing some kind of Xor encoding. So let's re
 
 Let's use the tool **XORSearch** to see if we can find some interesting xor decoded strings. Open the terminal **cmd.exe** from the start bar, and navigate to the XORSearch.exe
 
-`XORSearch.exe <Path to Unknown.exe>` "A string to test"`
+```XORSearch.exe <Path to Unknown.exe>` "A string to test"```
 
 ![alt text](https://securedorg.github.io/images/static6.png "xor search")
 
