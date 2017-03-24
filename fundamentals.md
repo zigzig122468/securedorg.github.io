@@ -25,8 +25,8 @@ Unzip the files below and open the .ovf file with VirtualBox
 
 * OS: Windows 7 Service Pack 1
 * Architecture: Intel 32bit
-* Username: IEUser
-* Password: Passw0rd!
+* Username: victim
+* Password: re1012017
 * IP Address: 192.168.0.2
 * Gateway: 192.168.0.1
 
@@ -34,7 +34,7 @@ Unzip the files below and open the .ovf file with VirtualBox
 
 * OS: Ubuntu 16.04.2 LTS Desktop
 * Architecture: Intel 64bit
-* Username: Sniffer
+* Username: sniffer
 * password re1012017
 * IP Address: 192.168.0.1
 * Gateway: 192.168.0.1
@@ -65,6 +65,6 @@ Unzip the files below and open the .ovf file with VirtualBox
 6. Sniffer VM: Devices->Shared Folders->Shared Folders Settings
   * On your Host, create a folder called `sniffershare`
   * In virtual box select Add New Shared Folder icon and navigate to the folder you just created (sniffershare)
-  * In Sniffer VM, open the terminal and run command:`sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) share ~/host`
+  * In Sniffer VM, open the terminal and run command:`mkdir ~/host; sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) sniffershare ~/host`
 
 [Intro <- Back](https://securedorg.github.io/RE101/intro) | [Next -> Anatomy of PE](https://securedorg.github.io/RE101/section1.2)
