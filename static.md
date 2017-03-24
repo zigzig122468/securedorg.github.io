@@ -7,7 +7,7 @@ title: Static Analysis
 
 # Section 5: Static Analysis #
 
-## LAB 1
+## LAB 2
 
 ### Possible Packer?
 Notice in CFF explorer that there is UPX in the header.
