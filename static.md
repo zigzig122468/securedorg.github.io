@@ -121,8 +121,10 @@ It's easy to trace back through the program disassembly, but let's look at some 
 
 **Jump Examples**
 
+![alt text](https://securedorg.github.io/images/static9.gif "jz jump")
+
 ```assembly
-jz loc_401975 ; jump too offset 401975 if the previous condition is zero
+jz loc_401962 ; jump too offset loc_401962 if the previous condition is zero
 ```
 
 ```assembly
@@ -131,7 +133,7 @@ jle short loc_401634 ; jump to relative offset 401634 if the previous condition 
 
 Next scroll down through and find the order of API function calls in the program. You should make note of all the function offsets.
 
-![alt text](https://securedorg.github.io/images/static7.gif "program scrolling")
+![alt text](https://securedorg.github.io/images/static8.gif "program scrolling")
 
 Some of the more interesting API Calls from the image above. Look up what each function does, many are self explanatory.
 
