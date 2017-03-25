@@ -11,6 +11,8 @@ Static analysis is like reading a map for directions on where to go. As you foll
 
 This section will teach you how to jump into code in static disassembly then rename and comment on interesting assembly routines that we will debug in **Section 6**.
 
+Most windows functions start at address **004010000**.
+
 ## LAB 2
 
 ### Possible Packer?
@@ -35,6 +37,8 @@ So far we can assume:
 * This exe might be spawning a shell
 
 ---
+
+### Jumping in!
 
 Navigate to the **String** window.
 
@@ -99,10 +103,52 @@ We can assume that this function is doing some kind of Xor encoding. So let's re
 
 Let's use the tool **XORSearch** to see if we can find some interesting xor decoded strings. Open the terminal **cmd.exe** from the start bar, and navigate to the XORSearch.exe
 
-```XORSearch.exe <Path to Unknown.exe>` "A string to test"```
+```XORSearch.exe <Path to Unknown.exe> "A string to test"```
 
 ![alt text](https://securedorg.github.io/images/static6.png "xor search")
 
 **"Yo this is dope!"** How weird.
+
+---
+
+## Getting the bigger picture
+
+Let's navigate to the start of the program using the **X** key.
+
+![alt text](https://securedorg.github.io/images/static7.gif "start function")
+
+It's easy to trace back through the program disassembly, but let's look at some control flow assembly instructions. Remember **jmp, jne, jnz, jnb** are control flow functions.
+
+**Jump Examples**
+
+```assembly
+jz loc_401975 ; jump too offset 401975 if the previous condition is zero
+```
+
+```assembly
+jle short loc_401634 ; jump to relative offset 401634 if the previous condition is less than or equal to
+```
+
+Next scroll down through and find the order of API function calls in the program. You should make note of all the function offsets.
+
+![alt text](https://securedorg.github.io/images/static7.gif "program scrolling")
+
+Some of the more interesting API Calls from the image above. Look up what each function does, many are self explanatory.
+
+* GetEnvironmentVariable
+* CopyFile
+* DeleteFile
+* InternetOpen
+* InternetConnect
+* HttpOpenRequest
+* HttpSendRequest
+* MessageBox
+* FindResource
+* CryptStringToBinary
+* CreateFile
+* ShellExecute
+* CreateProcess
+
+Now you know how to navigate the disassembly forward and backwards to get to interesting routines. The next step is making a rough path to follow for deeper analysis in Section 6.
 
 [Section 4 <- Back](https://securedorg.github.io/RE101/section4) | [Next -> Section 6](https://securedorg.github.io/RE101/section6)
