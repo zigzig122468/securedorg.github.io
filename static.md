@@ -27,6 +27,8 @@ Because UPX is a common packer, the unpacker is already built in to CFF Explorer
 
 ![alt text](https://securedorg.github.io/images/triage5.png "Unpacking UPX")
 
+---
+
 ### Reopen the executable in IDA.
 
 The next step is getting a sense as to what the program is doing.
@@ -116,7 +118,7 @@ Let's use the tool **XORSearch** to see if we can find some interesting xor deco
 
 ## Getting the bigger picture
 
-Let's navigate to the start of the program using the **X** key.
+Let's navigate to the start of the program using the **X** key. Use the spacebar to toggle between graph view and text view.
 
 ![alt text](https://securedorg.github.io/images/static7.gif "start function")
 
