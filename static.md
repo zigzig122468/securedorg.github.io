@@ -11,7 +11,6 @@ Static analysis is like reading a map for directions on where to go. As you foll
 
 This section will teach you how to jump into code in static disassembly then rename and comment on interesting assembly routines that we will debug in **Section 6**.
 
-Most windows functions start at address **004010000**.
 
 ## LAB 2
 
@@ -36,15 +35,19 @@ So far we can assume:
 * This exe is using a string encryption function
 * This exe might be spawning a shell
 
+Most windows programs start at address **004010000**.
+
 ---
 
 ### Jumping in!
 
-Navigate to the **String** window.
+Navigate to the **Strings** window.
 
 Here is an interesting string that we should start with:
 
 ![alt text](https://securedorg.github.io/images/static1.png "Strings window")
+
+This string is a typical registry key path to allow programs to autorun/startup on reboot. This is considered a [persistence](https://securedorg.github.io/RE101/section2.1/#persistence) mechanism. Double Click the string.
 
 Using the **X** key we can jump to the reference of that string in the assembly code.
 
@@ -89,11 +92,11 @@ call ds: InternetOpenA
 
 Right before the first **push 0** there is a **mov esi,eax** which means esi = eax.
 
-When a function returns, the return value is stored in **eax**. So let's look into the function that is being called. It takes a string as the first argument (that is a wicked string), while the second argument might be the string length.
+When a function returns, the return value is stored in **eax**. So let's look into the function that is being called. It takes a string as the first argument (that is a wicked string), while the second argument might be the string length. Press Enter to jump to the function.
 
- ![alt text](https://securedorg.github.io/images/static3.png "Unknown Function")
+![alt text](https://securedorg.github.io/images/static3.png "Unknown Function")
  
- Scroll down until you find **xor al, 5Ah**. Eventually you will be able to recognize when a string loop is being processed in assembly. In this case, it is **xor** a byte with **5Ah** which is **Z** in [ascii](http://www.asciitable.com/).
+Scroll down until you find **xor al, 5Ah**. Eventually you will be able to recognize when a string loop is being processed in assembly. In this case, it is **xor** a byte with **5Ah** which is **Z** in [ascii](http://www.asciitable.com/).
  
 ![alt text](https://securedorg.github.io/images/static4.png "Xor routine")
 
@@ -152,5 +155,7 @@ Some of the more interesting API Calls from the image above. Look up what each f
 * CreateProcess
 
 Now you know how to navigate the disassembly forward and backwards to get to interesting routines. The next step is making a rough path to follow for deeper analysis in Section 6.
+
+![alt text](https://securedorg.github.io/images/mapping.jpg "handwritten")
 
 [Section 4 <- Back](https://securedorg.github.io/RE101/section4) | [Next -> Section 6](https://securedorg.github.io/RE101/section6)
