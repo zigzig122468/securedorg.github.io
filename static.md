@@ -156,6 +156,6 @@ Some of the more interesting API Calls from the image above. Look up what each f
 
 Now you know how to navigate the disassembly forward and backwards to get to interesting routines. The next step is making a rough path to follow for deeper analysis in Section 6.
 
-![alt text](https://securedorg.github.io/images/mapping.jpg "handwritten")
+![alt text](https://securedorg.github.io/images/maping.jpg "handwritten")
 
 [Section 4 <- Back](https://securedorg.github.io/RE101/section4) | [Next -> Section 6](https://securedorg.github.io/RE101/section6)
