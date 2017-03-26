@@ -7,6 +7,8 @@ title: Dynamic Analysis
 
 # Section 6: Dynamic Analysis #
 
+![alt text](https://securedorg.github.io/images/hackerman.gif "hackerman")
+
 ## LAB 3
 Dynamic analysis is a deeper analysis of the program to understand hidden functionality not understood statically. The static analysis will serve as a guide for stepping through the program in a debugger.
 
