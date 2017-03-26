@@ -23,7 +23,7 @@ When you open the executable in IDA, you will notice large section of non-disass
 
 ![alt text](https://securedorg.github.io/images/triage4.png "IDA UPX")
 
-Because UPX is a common packer, the unpacker is already built in to CFF Explorer. Unpack and save the file with a name that identifies it as unpacked.
+Because UPX is a common packer, there are many tools that offer unpacking for UPX. Open the executable in PE Explorer which will unpack the binary automatically. Save the file with a name to identify it as unpacked.
 
 ![alt text](https://securedorg.github.io/images/triage5.png "Unpacking UPX")
 
