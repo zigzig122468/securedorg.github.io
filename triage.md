@@ -84,6 +84,7 @@ You can use the **Malware Analysis Report** template [HERE](https://securedorg.g
 5. Calculate the hash using **quickhash**, go to virustotal.com and search the hash
 6. Open the file in **BinText** and record any interesting strings
 7. Quick Detonation
+
 The point of the quick detonation is to capture the filesystem, registry, and connection activity. The VMs are set up in such a way that the Victim VM's internet traffic is captured by the Sniffer VM.
 ![alt text](https://securedorg.github.io/images/triageVMs.gif "Victim and Sniffer")
 
